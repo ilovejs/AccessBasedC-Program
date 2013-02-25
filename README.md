@@ -1,7 +1,7 @@
 This demo is a basic Access based application.
 In order to sucessfully add/ edit / delete / search data / generate simple Excel report.
 
-Click : HR -> Employee to see the panel
+After you login, click "HR" on main menu, then click "Employee" to see the panel.
 Thanks for trying !
 
 
