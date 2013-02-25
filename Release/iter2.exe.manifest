@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="iter2.exe" version="1.0.0.0" publicKeyToken="1cb347b6e7324143" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="iter2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="iter2.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC 清单选项
+          如果要更改 Windows 用户帐户控制级别，请用以下节点之一替换
+          requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+          如果要利用文件和注册表虚拟化提供
+          向后兼容性，请删除 requestedExecutionLevel 节点。
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Office.Interop.Excel" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Vbe.Interop" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="office" version="14.0.0.0" publicKeyToken="71E9BCE111E9429C" language="neutral" processorArchitecture="msil" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="stdole" version="7.0.3300.0" publicKeyToken="B03F5F7F11D50A3A" language="neutral" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="iter2.exe" size="630784">
+      <assemblyIdentity name="iter2" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>rq2Vf8+JWYzRgwS9wWWRsFoCYtSWcaR337jhAd2KhN0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Data\FoodMart.mdb" size="2863104" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ANViCYRs1ybIxNDpDqZpgTziNLF69jl6xBie9DdcTCk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="iter2.exe.config" size="516">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2izSV7c1zHDQM/wzdX97BkX5kPeUqW65ut1YGFJs5Hs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=mz-PC\mz" issuerKeyHash="5e62e4048df388c731430d437e4a5608779b9c49" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>c+sSLCZIum4BcmRxf0jJ+LQTVBpJ2QNaI5bHQJD5dTc=</DigestValue></Reference></SignedInfo><SignatureValue>CPsJdMu22tdiINtMLwuRVTinI9mawkff5w3eVG9AXAsI2XkcaZiesQxPjF1lkARQnbHjMMkHtSKwSwQQ+5UmwHvTtQhQahaBSxrMisE/Ou/Ub8TGD8aWaeBf9G7v4AC6LJw1Yj3YuObDSHaK8i3WR9dKq2G/6fmymqX99mkgL/g=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>2xzh4eFi5Y1Cr/3gjMvyguBtbJwJpwdFiawuSRxcSSrkW8kzVk+jWHbJynz9gF6ljKXohO1hOgaXzLu/L6pFRmM1s01S/2PJ6AKubsqNfuubFXndxwP+6Gf/K9+VsXMVE4xeuJArnj24Z4jjfNNQXfXMg4GuMrBEF758l4jAwGc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3775f99040c796235a03d9491a5413b4f8c9487f716472016eba48262c12eb73" Description="" Url=""><as:assemblyIdentity name="iter2.exe" version="1.0.0.0" publicKeyToken="1cb347b6e7324143" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=mz-PC\mz</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ENTIQXSuuBy7GhoL6kOwAihLUj1zO09oysPDRVlNYtg=</DigestValue></Reference></SignedInfo><SignatureValue>CbxuqX6OCHRnblsTeK9Of9tk9yyGYftn7ZRi+Z+qwlukKNJsy9honkYHBGdsu74rga5q5SL3tcO0QMknPdGeGO3ZLYR/i6ehzU/GbwhDhbJXUFJjvo2bq1mENcAfv7ILMAaRBtViM8h/yPRqvUZ0CNIrgYN0sUjbEUtw6EJNcSw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>2xzh4eFi5Y1Cr/3gjMvyguBtbJwJpwdFiawuSRxcSSrkW8kzVk+jWHbJynz9gF6ljKXohO1hOgaXzLu/L6pFRmM1s01S/2PJ6AKubsqNfuubFXndxwP+6Gf/K9+VsXMVE4xeuJArnj24Z4jjfNNQXfXMg4GuMrBEF758l4jAwGc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBuTCCASKgAwIBAgIQJ6ryIZ2zBZdGMUeTmAIvnjANBgkqhkiG9w0BAQsFADAbMRkwFwYDVQQDHhAAbQB6AC0AUABDAFwAbQB6MB4XDTEzMDIyNTE0NDc1MloXDTE0MDIyNTIwNDc1MlowGzEZMBcGA1UEAx4QAG0AegAtAFAAQwBcAG0AejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA2xzh4eFi5Y1Cr/3gjMvyguBtbJwJpwdFiawuSRxcSSrkW8kzVk+jWHbJynz9gF6ljKXohO1hOgaXzLu/L6pFRmM1s01S/2PJ6AKubsqNfuubFXndxwP+6Gf/K9+VsXMVE4xeuJArnj24Z4jjfNNQXfXMg4GuMrBEF758l4jAwGcCAwEAATANBgkqhkiG9w0BAQsFAAOBgQC1VfFOa6RglWjD65q7vjlA/qH8JBrLjS+KkSQHRjRw5mamZ0bXa35MhfvobB18SRcIgSjNVldg+Ot08MAnMlrrJliXSI9GsaRF7DFvFLa8IeuNCioyYCCXc4VZaqzVd+XWJnV4/Fkbp4gbSLCzmHYYuNdQngPl2FvuRtlC5smbBA==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

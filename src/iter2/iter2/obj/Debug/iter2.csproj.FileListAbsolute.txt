@@ -1,0 +1,13 @@
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\bin\Debug\iter2.exe.config
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\bin\Debug\Data\FoodMart.mdb
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\bin\Debug\iter2.exe
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\bin\Debug\iter2.pdb
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.csprojResolveAssemblyReference.cache
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.Employee.resources
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.Properties.Resources.resources
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.csproj.GenerateResource.Cache
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.exe
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.pdb
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.ChooseEmployee.resources
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.ChooseStore.resources
+C:\Users\mz\Documents\Visual Studio 2012\Projects\iter2\iter2\obj\Debug\iter2.MainForm.resources
